@@ -1,7 +1,7 @@
 public class Etriangle {
 //    public static void main(String[]args)
 
-        public class Etriangle extends Shape
+        public class Etriangle extends shapes
         {
             private int side;
 
