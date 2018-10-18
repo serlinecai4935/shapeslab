@@ -1,4 +1,4 @@
-public class Rectangle extends Shape
+public class Rectangle extends shapes
     //defines the height and width sides of the rectangle
 {
     private int width;

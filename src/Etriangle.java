@@ -1,5 +1,5 @@
 
-        public class Etriangle extends Shape
+        public class Etriangle extends shapes
         {
             private int side;
 
