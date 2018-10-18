@@ -1,23 +1,22 @@
-public class Rectangle extends shapes
+public class Rectangle extends Shape
 {
-    private int side;
-    public Rectangle (int width)
+    private int width;
+    private int height;
+    public Rectangle (int width,int height)
     {
         super("Rectangle");
-        this.side = side;
+        this.width = width;
+        this.height = height;
     }
-public Rectangle (int height)
-{
-    super("Rectangle");
-    this.side = side;
-}
     @Override
-    public double getArea() {
-        return 0;
+    public double getArea()
+    {
+        return (width * height);
     }
 
     @Override
-    public double getPerimeter() {
-        return 0;
+    public double getPerimeter()
+    {
+        return (height + height + width + width);
     }
 }
